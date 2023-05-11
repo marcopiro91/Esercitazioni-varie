@@ -5,30 +5,50 @@
 }
 
 #red {
-    width: 300px;
-    height: 300px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
     background-color: red;
-    padding: 30px;
 }
 
 #green {
-    width: 300px;
-    height: 300px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
     background-color: green;
 }
 
 #blue {
-    width: 300px;
-    height: 300px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
     background-color: blue;
 }
 
-#yellow {
-    width: 240px;
-    height: 240px;
+/* #princi {
+    width: 50px;
+    height: 1200px;
+    display: flex;
+} */
+
+body {
+    width: 170px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+#yellow{
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     background-color: yellow;
+}
+
+div {
+    margin: auto auto;
 }
